@@ -1,0 +1,944 @@
+html,body{
+    /*background-image: url('../img/login.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    /*overflow-x:hidden;*/
+}
+footer{
+    /*margin-top:5%;*/
+    font-size: 0.61rem;
+}
+
+#guias{
+    margin-top: 10px;
+}
+
+
+.footer-social-icon{
+    margin-left: 5px;
+}
+
+#main-img-banner{
+    width: 100%;
+    height: auto;
+}
+
+.menu-footer{
+    margin-top: 0px !important;
+}
+
+footer img {
+    max-width: 100%;
+}
+
+.header-main{
+    background-color: #004a92;
+    color: #fff;
+    padding-bottom: 10px; 
+}
+
+.bg-dark {
+    background-color: #319ea6!important;
+}
+
+.video-slider-titulo{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: #319ea6;
+}
+.video-slider-descripcion{
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+}
+
+#header-text-user-small{
+    display:none;
+}
+.f-cinta{
+    background-color: #004A92;
+    color: #fff;
+    padding-bottom: 10px; 
+}
+.footer-titulo{
+    text-align: center;
+    
+}
+.container{
+/*height: 100%;*/
+align-content: center;
+margin-top: 15px;
+}
+#row-ebooks{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#ef-main-title{
+    margin-bottom: 15px;
+}
+.card{
+height: 300px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+margin-top: 35px;
+margin-bottom: 12rem;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+#podcast{
+    background-color: #FFC312;
+}
+#talleres{
+    padding: 15px;
+}
+
+#tutoriales{
+    background-color: #FFC312;
+    padding: 15px;
+}
+#title-podcast{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #319ea6;
+    text-align: center;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.img-modulo{
+    width: 50%;
+    border: none;
+    margin-left: 25%;
+    border-radius: 45px 0 45px 0;
+    margin-right: 25%;
+}
+.img-modulo-eb{
+    width: 100%;
+    border: none;
+    /*margin-left: 25%;
+    border-radius: 45px 0 45px 0;
+    /*margin-right: 25%;*/
+}
+
+.modulos-ficha{
+    text-align: center;
+}
+
+.modulos-ficha-eb{
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.modulos-ficha-eb span{
+    font-size: 0.6rem;
+}
+
+.btn-custom {
+    color: #FFF;
+    background-color: #FFC312;
+    border-color: #FFC312;
+    border-radius: 20px;
+}
+
+.btn-custom:hover {
+    color: #FFF;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-custom-v {
+    color: #FFF;
+    background-color: #319ea6;
+    border-color: #319ea6;
+    border-radius: 20px;
+}
+
+.btn-custom-v:hover {
+    color: #FFF;
+    background-color: #319ea6;
+    border-color: #319ea6;
+}
+
+.download-pcl-img{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.eb-txt{
+    font-weight: 100;
+    color:#000;
+    font-size: 0.5rem !important;
+}
+#ef-main-title{
+    font-size: 0.8rem !important;
+    text-align: center;
+}
+#panel-oculto{
+    margin-top: 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 0.8rem;
+}
+
+/******************* INICIAN GUIAS *****************/
+.guias-titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFC312;
+    text-align: center;
+}
+.guias-descripcion{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #000;
+    text-align: center;
+}
+.guia-descripcion{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+#next-guias {
+    float: right;
+}
+
+.page-item > a {
+    font-size: 1.2rem;
+}
+
+.page-link {
+    color: #64bc47;
+}
+
+.page-link.activate{
+    font-size: 1.3rem;
+    color: #004a92;
+}
+
+#guias-letrero-grado{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #64bc47;
+    font-weight: 500;
+}
+
+/****************************************************/
+/******************* INICIAN CUADERNOS **************/
+.cuadernos-titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #319ea6;
+    text-align: center;
+}
+.cuadernos-descripcion{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #000;
+    text-align: center;
+}
+.cuadernos-contenedor{
+    padding: 35px;
+}
+/****************************************************/
+/******************* INICIAN PODCAST ****************/
+
+
+#carousel-podcast{
+    height: 305px;
+}
+.podcast-descripcion{
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #000;
+}
+
+#hidden-player{
+    width: 100%;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    border-radius: 90px;
+    transform: scale(0.9);
+    margin-top: 15px;
+}
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width:auto;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  #player {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    width:100%;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin:0 1em;
+  }
+  #player img {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border-radius: 10px;
+  }
+  #player .player-song {
+    width: 100%;
+    max-width:370px;
+    height: 100%;
+    margin-left: 130px;
+  }
+  #player .player-song .title {
+    color: #333;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #player .player-song .artist {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #player .player-song .timestamps {
+    width: calc(100% - 15px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  #player .player-song .actions {
+    width: 100%;
+    height: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #player .player-song .actions .next, #player .player-song .actions .prev {
+    cursor: pointer;
+  }
+  #player .player-song .actions i {
+    font-size: 32px;
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+    color: #bbbbbb;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  #player .player-song .actions i:hover {
+    color: #888888;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  
+  progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    width: calc(100% - 15px);
+    height: 6px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 50px;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    border-radius: 50px;
+    background-color: #333DDD;
+  }
+  
+  .play-button {
+    height: 16px;
+    width: 16px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px;
+  }
+  .play-button:hover .left, .play-button:hover .right {
+    background-color: #888888;
+  }
+  
+  .left {
+    height: 100%;
+    float: left;
+    background-color: #bbbbbb;
+    width: 36%;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    overflow: hidden;
+  }
+  
+  .triangle-1 {
+    -webkit-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+  }
+  
+  .triangle-2 {
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+  }
+  
+  .triangle-1,
+  .triangle-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-right: 16px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    -webkit-transition: -webkit-transform 0.25s ease;
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+    transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+  }
+  
+  .right {
+    height: 100%;
+    float: right;
+    width: 36%;
+    background-color: #bbbbbb;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  
+  .paused .left {
+    width: 50%;
+  }
+  
+  .paused .right {
+    width: 50%;
+  }
+  
+  .paused .triangle-1 {
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  
+  .paused .triangle-2 {
+    -webkit-transform: translate(0, 50%);
+    transform: translate(0, 50%);
+  }
+    .centered-big{
+        position:absolute;
+        left:50vw;
+        top:50vh;
+        font-size:30px
+    }
+
+/****************************************************/
+/******************* INICIAN TALLERES ***************/
+
+.dot {
+    height: 60px;
+    width: 60px;
+    color: #e5b300;
+    background-color: #e5b300;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .descargas-descripcion{
+      font-size: 0.8rem;    
+      font-weight: 600;
+      color: #000;
+      text-align: center;
+  }
+
+  .descargas{
+      text-align: center;
+  }
+
+  .taller-img{
+      width: 5rem;
+  }
+
+  #talleres-small{
+      display: none;
+  }
+
+/****************************************************/
+
+
+#panel-oculto div{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.panel-lista{
+    font-size: 1rem;
+}
+.panel-lista div{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.logo-guia{
+    width: 20%;
+}
+.logo-footer{
+    width: 45%;
+}
+.title-h{
+    text-align: center;
+    color: #d83879 ;
+}
+.main-title-h{
+    font-size: 1.7rem;
+    font-weight: 750;
+}
+.main-title-login{
+    font-size: 1.2rem !important;
+    font-weight: 700;
+    text-align:center;
+}
+.second-title-h{
+    font-weight: 700;
+}
+.social-footer-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-img-logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title-footer-center{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-title {
+    text-align: center;
+}
+.row {
+    margin-top: 15px;
+}
+.descripcion{
+    margin-top: 5%;
+}
+.text-landin{
+    font-size: 0.97rem;
+}
+.img-title{
+    width:90%;
+}
+.img-title-center{
+    width: 100%;
+    padding-top: 20%;
+}
+#registrar{
+    display:none;
+}
+#login{
+    display:none;
+}
+.link-login{
+    font-size: 0.7rem;
+    cursor: pointer;
+    text-decoration-line: underline !important;
+}
+#header-logo{
+    width: 7.5rem;
+    margin-left: 2rem;
+}
+#navbarSupportedContent{
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+#header-text-username{
+    margin-right: 0.8rem;
+    font-weight: 400;
+}
+/*#logout{
+    width: initial;
+    margin-left: 50px;
+    color: #FFF;
+    text-decoration: none;
+}*/
+.sub-menu{
+    width: initial;
+    margin-left: 50px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.sub-menu:hover{
+    color: #ddd9d9;
+    text-decoration: none;
+}
+
+#r-oculto-presentacion{
+    border-bottom: 1px solid #000;
+}
+#modulos-main-title{
+    text-align: center;
+}
+#panel-oculto-presentacion{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#lista-titulo{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#lista-descripcion{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.green-title{
+    color:#80af41;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.ficha-activa{
+    cursor: pointer;
+}
+
+.red-title{
+    color:#d60808;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+#oculto-titulo{
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,.25);
+}
+.img-recurso{
+    width: 25%;
+}
+.img-recurso-lista{
+    width: 20%;
+}
+.img-close-login{
+    width: 1.2rem;
+}
+.img-login-inputs{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.img-login-log{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.img-login-welcome{
+	width: 100%;
+}
+.input-home{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 10px;
+     border: 1px solid #000;
+     /*width: 250px;*/
+     height: 30px;
+     padding-left: 10px;
+}
+#btn-lregistrarse{
+    float: left;
+}
+#btn-contraolvidada{
+    float: right;
+}
+#cont-btn-login{
+    margin-top:30px;
+}
+.material-video{
+    width: 100%;
+}
+#privacy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #4A4A39;
+}
+.privacy-title{
+    width: 85%;
+    float: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.privacy-body{
+    color: #4A4A39;
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+      width: 100% !important;
+    }*/
+
+    iframe{
+        height: 175px;
+    }
+    #header-logo {
+        width: 15%;
+        margin-left: 5%;
+    }
+    #header-text-user-small{
+        font-size: 0.6rem;
+        font-weight: 700;
+        display:block;
+    }
+    #header-text-username{
+        display:none;
+    }
+    .lat{
+        display: none;
+    }
+    .cont{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .img-modulo-eb {
+        width: 50%;
+        border: none;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .modulos-ficha-eb span{
+        width: 60%;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 0.8rem;
+    }
+    .eb-txt{
+        width: 10%;
+        padding-left: 20% !important;
+        padding-right: 15% !important;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .img-title {
+        width: 100%;
+    }
+    .img-recurso-lista {
+        width: 60%;
+    }
+    .img-recurso {
+        width: 75%;
+    }
+    .panel-lista {
+        font-size: 0.8rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .now{
+        margin-right: -14px;
+    }
+    .naw{
+        margin-right: -20px;
+    }
+    .footer-img-logo {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .social-footer-title{
+        text-align: center;
+    }
+    #social-icons-f{
+        text-align: center;
+    }
+    #lista-titulo {
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+    footer img {
+        max-width: 100%;
+    }
+    .f-cinta {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .navbar-personal-icon{
+
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+        background-image: url('../img/main/logout.png');
+
+    }
+    /**********************VIDEOS*************************/
+
+    #prev-video {
+        left: -5px !important;
+        width: 35px;
+    }
+
+    #next-video {
+        right: -5px !important;
+        width: 35px;
+    }
+
+
+    /******************* INICIAN CUADERNOS **************/
+    .podcast-descripcion {
+        font-size: 0.61rem;
+    }
+    .green-title{
+        text-align: center;
+    }
+    /****************************************************/
+    /******************* INICIAN CUADERNOS **************/
+    .cuadernos-contenedor{
+        padding: 0px;
+    }
+    /*****************INICIA PODCAST***************/
+    #carousel-podcast{
+        height: 200px;
+    }
+    /******************* INICIAN TALLERES ***************/
+
+    .talleres-colapse-lateral {
+        display: none;
+    }
+
+    #talleres-small{
+        display: block;
+    }
+
+    #talleres-large{
+        display: none;
+    }
+    #talleres-large{
+        display: none;
+    }
+    #contain-chat{
+        display: none;
+    }
+
+    .modal-card, .modal-content {
+        margin: 0 0px; 
+    }
+        
+    /****************************************************/
+}
+
+@media screen and (min-width: 992px) {
+    #carousel-podcast {
+        height:auto; 
+    }
+    .taller-img{
+        width: 8rem;
+    }
+    .dashboard-wrapper{
+        margin-top: 40px;
+    }
+}

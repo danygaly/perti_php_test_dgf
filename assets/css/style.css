@@ -1,0 +1,407 @@
+/*html, body{
+    height: 100%
+  }*/
+
+#body-login{
+    color: #fff;
+}
+
+.top-middle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+}
+
+/*validation text size*/
+
+.has-text-danger{
+    font-size: 0.75rem
+}
+
+.yellow{
+    /*background-color: #e5b300;*/
+    /* la vieja sintaxis, obsoleta, pero todavía necesaria */
+    background: -prefix-linear-gradient(left bottom, #004a92, #00b5e3);
+
+    /* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante) */
+    background: linear-gradient(to top right, #004a92,#00b5e3);
+}
+
+#btn-registro-login{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#modalLogin {
+    color: #000;
+}
+
+.row{    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#panel-login{
+    height: 100%;
+}
+
+/*pagination*/
+
+.pager .pagination>li>a,
+.pager .pagination>li>span {
+    color: #343a40;
+}
+.pagination>li.page-item.active>a {
+    border: 1px solid #343a40;
+  background: #343a40;
+  color: #fff;
+}
+
+.title-welcome-text{
+    text-align: center;
+}
+
+.btn-dark{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+}
+
+.btn-green{
+    width: 100%;
+    background-color: #64bc47;
+    color: #fff;
+    height: 50px;
+    cursor:pointer;
+}
+
+
+.s-mb{
+    margin-bottom: 10rem !important;
+}
+.l-mb{
+    margin-bottom: 1rem !important;
+}
+
+.top-20{
+    top: 10px;
+}
+.bottom-20{
+    bottom: 20px;
+}
+
+.header-login{
+    background-color: #004a92;
+}
+
+
+.login{
+    color: #004a92;
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #004a92;
+    border-radius: 3%;
+
+}
+
+.login-title{
+    text-align: center;
+}
+.card{
+    border: none;
+}
+.login-body{
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.title-card-text{
+    color: #004a92;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.title-registro-text{
+    color: #655094;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card-link a{
+    color: #e5b300;
+}
+
+.header-login-logo{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#privacy{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #4A4A39;
+}
+.privacy-body{
+    color: #4A4A39;
+    font-size: 1rem;
+}
+
+
+
+
+.privacidad {
+    transform : scale(1.5);
+    display: inline-flex;
+    position: relative;
+}
+
+
+
+.form-control{
+    color: #fff;
+    background-color: #655094;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #655094;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+  
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #4e3a7c;
+    border-color: #4e3a7c;
+    outline: 0;
+}
+
+
+.form-registro{
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #655094;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-registro::placeholder {
+    color: #004a92;
+    opacity: 1; /* Firefox */
+  }
+  
+.form-registro:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #004a92;
+}
+  
+.form-registro::-ms-input-placeholder { /* Microsoft Edge */
+   color: #004a92;
+}
+
+.form-registro:focus {
+    color: #fff;
+    background-color: #4e3a7c;
+    border-color: #4e3a7c;
+    outline: 0;
+}
+
+.form-registro:focus::placeholder {
+    color: #fff;
+}
+
+
+
+
+.footer-login{
+    background-color: #00b5e3;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+
+}
+.footer-text-loqueleo{
+    text-align: left;
+}
+
+/*@media only screen and (max-width: 510px) {*/
+
+@media (min-width: 576px){
+        .row{    
+            margin-top: 50px;
+            margin-bottom: 0px;
+        }
+    
+        .header-login{
+            height: 90px;
+        }
+    
+        footer{
+            width: 100%;
+            height: auto;
+        }
+    
+        .footer-text-loqueleo{
+            text-align: center;
+        }
+
+        footer{
+            font-size: 0.8rem;
+        }
+        footer img {
+            max-width: 100%;
+        }
+        .f-cinta {
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+}
+
+
+@media (min-width: 768px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+      width: 100% !important;
+    }*/
+
+    .row{    
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .header-login{
+        height: 190px;
+    }
+
+    footer{
+        color: #FFF;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-text-loqueleo{
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+      width: 100% !important;
+    }*/
+
+    .row{    
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .header-login{
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-text-loqueleo{
+        text-align: left;
+    }
+
+    .top-20{
+        top: 0px;
+        padding-top: 10px;
+    }
+    .bottom-20{
+        bottom: 20px;
+    }
+    .menu-footer{
+        margin-bottom: 0px;
+    }
+    .header-login-logo{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+      width: 100% !important;
+    }*/
+
+    .s-mb {
+        margin-bottom: 15rem !important;
+    }
+
+    .c-mb{
+        margin-bottom: 4rem !important;
+    }
+
+    .login-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .title-welcome-text{
+        font-size: 1rem;
+    }
+
+    .row{    
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .header-login{
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-text-loqueleo{
+        text-align: left;
+    }
+
+    .top-20{
+        top: 0px;
+        padding-top: 10px;
+    }
+    .bottom-20{
+        bottom: 20px;
+    }
+    .menu-footer{
+        margin-bottom: 0px;
+    }
+    .header-login-logo{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
